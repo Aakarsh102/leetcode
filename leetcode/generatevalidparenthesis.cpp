@@ -1,7 +1,10 @@
+#include <string>
+#include <vector>
+
 class Solution {
 public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> result;
+    std::vector<std::string> generateParenthesis(int n) {
+        std::vector<std::string> result;
         std::function<void(std::string, int, int)> gen = [&] (std::string sub, int open, int close) {
             if (close == n) {
                 result.push_back(sub);
