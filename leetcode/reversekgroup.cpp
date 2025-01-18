@@ -1,3 +1,4 @@
+#include <functional>
 
 //Definition for singly-linked list.
 struct ListNode {
@@ -17,7 +18,7 @@ public:
         ListNode dummy = ListNode(-1, head);
         ListNode *before = &dummy;
 
-        function<void(ListNode *, ListNode *)> reverse = [&](ListNode * start, ListNode *end) {
+        std::function<void(ListNode *, ListNode *)> reverse = [&](ListNode * start, ListNode *end) {
             ListNode *cur = start;
             ListNode *nex = start -> next;
             start -> next = end -> next;
