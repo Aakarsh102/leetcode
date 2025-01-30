@@ -1,6 +1,7 @@
+#include <vector>
 class Solution {
 public:
-    int findMin(vector<int>& nums) {
+    int findMin(std::vector<int>& nums) {
     if (nums[nums.size() - 1] >= nums[0]) {
         return nums[0];
     }
