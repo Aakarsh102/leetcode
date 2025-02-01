@@ -1,6 +1,7 @@
+#include <vector>
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray(std::vector<int>& nums) {
         if(nums.size() == 1) {
             return nums[0];
         }
