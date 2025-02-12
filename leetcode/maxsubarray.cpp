@@ -1,3 +1,5 @@
+// We're using Kadane's algorithm to solve this problem
+
 #include <vector>
 class Solution {
 public:
