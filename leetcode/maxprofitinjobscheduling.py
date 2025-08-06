@@ -1,7 +1,7 @@
 from bisect import bisect_right
 
 class Solution:
-    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
+    def jobScheduling(self, startTime: list[int], endTime: list[int], profit: list[int]) -> int:
         
         zipped = list(zip(startTime, endTime, profit))
         zipped.sort(key = lambda k : k[1])
