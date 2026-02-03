@@ -1,3 +1,9 @@
+# 
+# Problem: Image Decoding
+# Author: Aakarsh Rai (rai53)
+# It is ok to show my solution to others
+#
+
 
 n = 0
 # This is to know if we're in the first line 
