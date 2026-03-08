@@ -9,6 +9,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <string>
+
 // this function checks if the list of students is valid
 // basically checks adjacent students don't hate each other
 bool isCompatible(std::string& s, 
