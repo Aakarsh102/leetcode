@@ -1,5 +1,5 @@
 class Solution:
-    def expand(self, s: str) -> List[str]:
+    def expand(self, s: str) -> list[str]:
         cur = []
         res = []
         self.do_back(res, s, 0, cur)
