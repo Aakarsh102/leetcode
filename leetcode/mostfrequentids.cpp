@@ -1,3 +1,7 @@
+#include <vector>
+#include <unordered_map> 
+#include <queue>
+
 class Solution {
 public:
     std::vector<long long> mostFrequentIDs(std::vector<int>& nums, std::vector<int>& freq) {
