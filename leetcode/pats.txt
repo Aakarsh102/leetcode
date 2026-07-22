@@ -1,0 +1,6 @@
+1. Remember prefix and suffix sums like in buy and sell stock 3. 
+2. Topological BFS/ leaf trimming
+3. number of islands: this used BFS/DFS. 
+4. prefix sums and suffix sums are important 
+5. prefix sums and suffix sums can be used to find the product/sum/division/subraction of all elements excluding any 1.
+
