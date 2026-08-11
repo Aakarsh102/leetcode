@@ -7,7 +7,7 @@
 class Solution:
     def __init__(self):
         self.max_val = -300000001
-    def maxPathSum(self, root: Optional[TreeNode]) -> int:
+    def maxPathSum(self, root) -> int:
         if (root.left is None and root.right is None):
             return root.val
         self.do_bottom_up(root)
